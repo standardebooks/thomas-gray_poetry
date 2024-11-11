@@ -83,6 +83,10 @@ p.internal-heading {
 	text-align: center;
 }
 
+p.internal-heading span {
+	display: inline;
+}
+
 p[xml|lang]{
 	font-style: italic;
 }
