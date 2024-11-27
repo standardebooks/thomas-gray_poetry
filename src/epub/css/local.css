@@ -177,28 +177,28 @@ p span.i4{
 }
 /* End poetry */
 
-div>header {
+div > header{
 	margin: 1em 0;
 }
 
-div>header>p {
+div > header > p{
 	font-variant: small-caps !important;
 	text-align: center !important;
 }
 
-div>header>p span {
+div > header > p span{
 	display: inline !important;
 }
 
-footer p {
+footer p{
 	font-style: italic;
 	margin-right: 1em;
 	text-align: right !important;
 }
 
-h4[epub|type~="preface"] {
-	margin: 1em 0;
+h4[epub|type~="preface"]{
 	font-weight: normal;
+	margin: 1em 0;
 }
 
 h4[xml|lang]{
