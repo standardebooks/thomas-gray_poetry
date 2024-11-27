@@ -156,6 +156,10 @@ p span.i4{
 }
 /* End poetry */
 
+article{
+	break-after: page;
+}
+
 div > header{
 	margin: 1em 0;
 }
