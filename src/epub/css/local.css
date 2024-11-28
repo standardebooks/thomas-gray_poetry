@@ -180,11 +180,6 @@ footer{
 	text-align: right;
 }
 
-h4[epub|type~="preface"]{
-	font-weight: normal;
-	margin: 1em 0;
-}
-
 p[xml|lang]{
 	font-style: italic;
 }
