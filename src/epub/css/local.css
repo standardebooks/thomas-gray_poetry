@@ -173,10 +173,11 @@ div > header > p span{
 	display: inline !important;
 }
 
-footer p{
+footer{
 	font-style: italic;
 	margin-right: 1em;
-	text-align: right !important;
+	margin-top: 1em;
+	text-align: right;
 }
 
 h4[epub|type~="preface"]{
