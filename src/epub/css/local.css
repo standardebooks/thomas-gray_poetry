@@ -173,6 +173,10 @@ div > header > p span{
 	display: inline !important;
 }
 
+#elegy-written-in-a-country-churchyard div{
+	font-style: italic;
+}
+
 footer{
 	font-style: italic;
 	margin-right: 1em;
