@@ -28,48 +28,60 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Poetry</dc:subject>
+		<dc:subject id="subject-2">English poetry--18th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85103704</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85043936</meta>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of poems by Thomas Gray.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-gray"&gt;Thomas Gray&lt;/a&gt; (1716–1771) was an English poet, best known for his “Elegy Written in a Country Churchyard.” Despite producing a relatively small body of work, Gray has made a lasting impact on English literature. This collection contains 11 poems published by Gray in his lifetime, and over 20 more that have been published since his death.&lt;/p&gt;
+			&lt;p&gt;As a Cambridge professor, Gray was a learned classicist, and drew from classical structures and themes for inspiration. His annotations to his published works show the depth of his knowledge of classical and contemporary literatures. Building upon his classical foundations, Gray also strongly reflects romanticism in his work. His “Elegy Written in a Country Churchyard” displays meditative melancholy, appreciation for the natural world, and respect for the common man.&lt;/p&gt;
+			&lt;p&gt;Other notable works include “Ode on the Death of a Favourite Cat” (a playful poem inspired by a friend’s cat) and “The Progress of Poesy,” which celebrates the power of poetry. In “The Descent of Odin” and “The Fatal Sisters,” Gray captures the visceral drama of traditional Norse verse⁠—the widely-read Gray also drew from Norse and Welsh traditions, and folded them into his multi-faceted work.&lt;/p&gt;
+			&lt;p&gt;Gray’s reflections on life, death, and the human condition remain relevant today. His body of work is concise, approachable, and impactful, and his poetry continues to attract and inspire modern readers.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<!--Scan of all poems except: Lines Written at Burnham, Lines on Dr. Robert Smith, and Lines Spoken by the Ghost of John Dennis at the Devil Tavern-->
+		<dc:source>https://archive.org/details/worksofthomasgra00grayiala</dc:source>
+		<!--Scan of Lines on Dr. Robert Smith-->
+		<dc:source>https://archive.org/details/worksofthomasgra0001unse</dc:source>
+		<!--Scan of Lines Written at Burnham and Lines Spoken by the Ghost of John Dennis at the Devil Tavern-->
+		<dc:source>https://catalog.hathitrust.org/Record/000592287</dc:source>
+		<!--Transcription of all poems except: Lines Written at Burnham and Lines Spoken by the Ghost of John Dennis at the Devil Tavern-->
+		<dc:source>https://www.thomasgray.org/texts/diglib/primary/BrJ_1891</dc:source>
+		<!--Transcription of Lines Written at Burnham-->
+		<dc:source>https://www.thomasgray.org/texts/poems/lobt</dc:source>
+		<!--Transcription of Lines on Dr. Robert Smith-->
+		<dc:source>https://www.thomasgray.org/texts/poems/lods</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-gray_poetry</meta>
 		<dc:creator id="author">Thomas Gray</dc:creator>
 		<meta property="file-as" refines="#author">Gray, Thomas</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Gray</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Gray</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79089789</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="artist">John Giles Eccardt</dc:contributor>
+		<meta property="file-as" refines="#artist">Eccardt, John Giles</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Giles_Eccardt</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n2021014146</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Thomas Gray Archive</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Thomas Gray Archive</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Harry Lund</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Lund, Harry</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
