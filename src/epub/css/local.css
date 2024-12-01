@@ -164,8 +164,10 @@ div > header > p{
 	text-align: center !important;
 }
 
-div > header > p span{
+div > header > p span,
+section > header > hgroup p span{
 	display: inline !important;
+	padding-left: 0 !important;
 }
 
 div + p{
@@ -181,6 +183,10 @@ footer{
 	margin-right: 1em;
 	margin-top: 1em;
 	text-align: right;
+}
+
+hgroup p{
+	text-align: center !important;
 }
 
 p[xml|lang]{
