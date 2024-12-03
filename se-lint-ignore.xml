@@ -8,6 +8,10 @@
 	</file>
 	<file path="poetry.xhtml">
 		<ignore>
+			<code>c-010</code>
+			<reason>Expected CSS rules under "footer p" identifier, to ensure they are prioritized correctly.</reason>
+		</ignore>
+		<ignore>
 			<code>s-091</code>
 			<reason>Span elements are used to sematicate roman numerals. No line break element needed.</reason>
 		</ignore>
