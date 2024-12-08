@@ -172,6 +172,7 @@ div + p{
 	text-align: center;
 }
 
+[epub|type~="preface"] p span,
 [epub|type~="z3998:poem"] div > header > p span,
 [epub|type~="z3998:poem"] section > header > hgroup p span{
 	display: inline;
