@@ -159,17 +159,6 @@ div > header{
 	margin: 1em 0;
 }
 
-div > header > p{
-	font-variant: small-caps !important;
-	text-align: center !important;
-}
-
-div > header > p span,
-section > header > hgroup p span{
-	display: inline !important;
-	padding-left: 0 !important;
-}
-
 div + p{
 	margin-top: 1em;
 }
@@ -178,15 +167,26 @@ div + p{
 	font-style: italic;
 }
 
-footer p{
+[epub|type~="z3998:poem"] div > header > p{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] div > header > p span,
+[epub|type~="z3998:poem"] section > header > hgroup p span{
+	display: inline;
+	padding-left: 0;
+}
+
+[epub|type~="z3998:poem"] footer p{
 	font-style: italic;
 	margin-right: 1em;
 	margin-top: 1em;
-	text-align: right !important;
+	text-align: right;
 }
 
-hgroup p{
-	text-align: center !important;
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
 }
 
 p[xml|lang]{
