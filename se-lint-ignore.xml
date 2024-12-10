@@ -11,13 +11,5 @@
 			<code>c-010</code>
 			<reason>Expected CSS rules under "footer p" identifier, to ensure they are prioritized correctly.</reason>
 		</ignore>
-		<ignore>
-			<code>s-091</code>
-			<reason>Span elements are used to sematicate roman numerals. No line break element needed.</reason>
-		</ignore>
-		<ignore>
-			<code>t-070</code>
-			<reason>Periods are retained as they belong to section numerals</reason>
-		</ignore>
 	</file>
 </se-lint-ignore>
