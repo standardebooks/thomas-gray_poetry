@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/thomas-gray/poetry</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-12-10T19:02:54Z</dc:date>
+		<meta property="dcterms:modified">2024-12-10T19:02:54Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,10 +35,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85043936</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of poems by Thomas Gray.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-gray"&gt;Thomas Gray&lt;/a&gt; (1716–1771) was an English poet, best known for his “Elegy Written in a Country Churchyard.” Despite producing a relatively small body of work, Gray has made a lasting impact on English literature. This collection contains eleven poems published by Gray in his lifetime, and over twenty more that have been published since his death.&lt;/p&gt;
-			&lt;p&gt;As a Cambridge professor, Gray drew from classical structures and themes for inspiration. His annotations to his published works show the depth of his knowledge of classical and contemporary literatures. Building upon these foundations, Gray also strongly reflects romanticism in his work. His “Elegy Written in a Country Churchyard” displays meditative melancholy, appreciation for the natural world, and respect for the common man.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-gray"&gt;Thomas Gray&lt;/a&gt; was an English poet best known for his “Elegy Written in a Country Churchyard.” Despite producing a relatively small body of work, Gray has had a lasting impact on English literature. This collection contains the eleven poems published by Gray in his lifetime, and over twenty more that have been published since his death.&lt;/p&gt;
+			&lt;p&gt;As a Cambridge professor, Gray drew from classical structures and themes for inspiration. His annotations to his published works show the depth of his knowledge of classical and contemporary literature. Building upon these foundations, Gray’s work is also strongly romantic in style. His “Elegy Written in a Country Churchyard” explores meditative melancholy, appreciation for the natural world, and respect for the common man.&lt;/p&gt;
 			&lt;p&gt;Other notable works include “Ode on the Death of a Favourite Cat” (a playful poem inspired by a friend’s cat) and “The Progress of Poesy,” which celebrates the power of poetry. In “The Descent of Odin” and “The Fatal Sisters,” Gray captures the visceral drama of traditional Norse verse—the widely-read Gray also drew from Norse and Welsh traditions, and folded them into his multi-faceted work.&lt;/p&gt;
 			&lt;p&gt;Gray’s reflections on life, death, and the human condition remain relevant today. His body of work is concise, approachable, and impactful, and his poetry continues to attract and inspire modern readers.&lt;/p&gt;
 		</meta>
@@ -55,8 +56,8 @@
 		<dc:source>https://www.thomasgray.org/texts/poems/lobt</dc:source>
 		<!--Transcription of Lines on Dr. Robert Smith-->
 		<dc:source>https://www.thomasgray.org/texts/poems/lods</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">13443</meta>
+		<meta property="se:reading-ease.flesch">66.88</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-gray_poetry</meta>
 		<dc:creator id="author">Thomas Gray</dc:creator>
 		<meta property="file-as" refines="#author">Gray, Thomas</meta>
@@ -82,6 +83,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
