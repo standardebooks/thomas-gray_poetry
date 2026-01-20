@@ -57,7 +57,7 @@
 		<dc:source>https://www.thomasgray.org/texts/poems/lobt</dc:source>
 		<!--Transcription of Lines on Dr. Robert Smith-->
 		<dc:source>https://www.thomasgray.org/texts/poems/lods</dc:source>
-		<meta property="se:word-count">13443</meta>
+		<meta property="se:word-count">13164</meta>
 		<meta property="se:reading-ease.flesch">66.88</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-gray_poetry</meta>
 		<dc:creator id="author">Thomas Gray</dc:creator>
