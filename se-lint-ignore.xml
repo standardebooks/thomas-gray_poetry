@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-060</code>
+		<ignore code="t-060">
 			<reason>Not a Bible citation, but a reference to Shakespeare's play</reason>
 		</ignore>
 	</file>
 	<file path="poetry.xhtml">
-		<ignore>
-			<code>c-010</code>
+		<ignore code="c-010">
 			<reason>Expected CSS rules under "footer p" identifier, to ensure they are prioritized correctly.</reason>
 		</ignore>
 	</file>
